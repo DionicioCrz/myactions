@@ -24,7 +24,7 @@ jobs:
       - name: Build project
         run: |
           xcodebuild clean build \
-          -project DummyApp/DummyApp.xcodeproj \
+          -project DummyApp.xcodeproj \
           -scheme DummyApp \
           -sdk iphonesimulator \
           -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.2'
